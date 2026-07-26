@@ -260,7 +260,7 @@ window.WANDERUNGEN = [
         "name": "Höllkopf",
         "lat": 47.3285,
         "lon": 10.9115,
-        "info": "Zwischenstation · Schreibfehler „Höllkopt“ korrigiert"
+        "info": "Zwischenstation"
       },
       {
         "type": "peak",
@@ -409,7 +409,7 @@ window.WANDERUNGEN = [
         "name": "Gaflunhütte / Galflun Alm",
         "lat": 47.159,
         "lon": 10.721,
-        "info": "Zwischenstation · Schreibweise vereinheitlicht"
+        "info": "Zwischenstation"
       },
       {
         "type": "mid",

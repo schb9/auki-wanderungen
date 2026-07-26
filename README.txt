@@ -1,19 +1,24 @@
-TIROLER WANDERKARTE 2009–2026
+AUKI WANDERUNGEN – GITHUB PAGES
 
-START
-1. ZIP vollständig entpacken.
-2. Karte_starten.bat doppelt anklicken.
-3. Das schwarze Fenster während der Verwendung offen lassen.
+ENTHALTENE DATEIEN
+- index.html
+- wanderungen.js
+- README.txt
 
-DATEIEN
-- wanderkarte.html: Kartendarstellung
-- wanderungen.js: Touren, Wegpunkte und Koordinaten
-- Karte_starten.bat: lokaler Webserver
+VERÖFFENTLICHUNG
+1. ZIP entpacken.
+2. Bei GitHub ein neues öffentliches Repository anlegen, z. B. auki-wanderungen.
+3. Die drei Dateien in das Repository hochladen.
+4. Settings → Pages öffnen.
+5. Source: Deploy from a branch.
+6. Branch: main, Ordner: / (root).
+7. Speichern.
 
-HINWEISE
-- Internetverbindung ist für OpenStreetMap erforderlich.
-- Linien zeigen nur die Reihenfolge der Stationen, keine exakten Wanderwege.
-- Mehrere historische Wegpunkte wurden anhand der genannten Alm-/Gipfelposition
-  eingetragen. Feinkorrekturen sind direkt in wanderungen.js möglich.
-- „Höllkopt“ wurde als „Höllkopf“ interpretiert.
-- „Gaflunhütte“ wurde zusätzlich als „Galflun Alm“ bezeichnet.
+Die Adresse lautet danach ungefähr:
+https://DEINNAME.github.io/auki-wanderungen/
+
+SMARTPHONE
+Den Link in Safari oder Chrome öffnen. Optional über das Browsermenü
+„Zum Home-Bildschirm“ hinzufügen.
+
+Für die OpenStreetMap-Hintergrundkarte ist Internet erforderlich.
