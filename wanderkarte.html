@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tiroler Wanderungen 2009–2026</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+<style>
+html,body{height:100%;margin:0;font-family:system-ui,Segoe UI,sans-serif;color:#1f2937}
+.app{height:100%;display:grid;grid-template-columns:290px 1fr}
+aside{padding:14px;background:#fff;border-right:1px solid #d1d5db;overflow:auto}
+h1{font-size:1.15rem;margin:0 0 4px}.sub,.note{font-size:.8rem;color:#64748b;line-height:1.4}
+.legend{display:grid;gap:5px;margin:12px 0}.legend div{display:flex;align-items:center;gap:8px;font-size:.88rem}
+.dot{width:9px;height:9px;border-radius:50%;border:1px solid #fff;box-shadow:0 0 0 1px #555}
+.controls{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}
+button{border:1px solid #cbd5e1;border-radius:7px;background:#fff;padding:6px 8px;cursor:pointer}
+.tour{display:flex;align-items:center;gap:7px;border:1px solid #d8dee5;border-radius:7px;padding:5px 7px;margin:5px 0;font-size:.86rem}
+.tour input{width:15px;height:15px}
+#map{height:100%;width:100%;background:#e5e7eb}
+.pin{width:9px;height:9px;border-radius:50%;border:1px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.65)}
+.map-label{font-size:8px;font-weight:600;color:#111827;background:rgba(255,255,255,.8);border:1px solid rgba(0,0,0,.18);border-radius:2px;padding:0 2px;white-space:nowrap;box-shadow:none}
+.leaflet-tooltip.map-label:before{display:none}
+#tileStatus{margin-top:9px;padding:6px;border-radius:7px;background:#f1f5f9;font-size:.75rem;color:#475569}
+@media(max-width:760px){.app{grid-template-columns:1fr;grid-template-rows:auto 1fr}aside{max-height:40vh;border-right:0;border-bottom:1px solid #d1d5db}}
+</style>
+</head>
+<body>
+<div class="app">
+<aside>
+<h1>Tiroler Wanderungen</h1>
+<div class="sub">2009–2026 · OpenStreetMap</div>
+<div class="legend">
+<div><span class="dot" style="background:#16a34a"></span>Ausgangspunkt</div>
+<div><span class="dot" style="background:#facc15"></span>Zwischenstation</div>
+<div><span class="dot" style="background:#dc2626"></span>Gipfel</div>
+</div>
+<div class="controls">
+<button id="fit">Alle Touren</button>
+<button id="labels">Beschriftungen aus</button>
+<button id="showAll">Alle ein</button>
+<button id="hideAll">Alle aus</button>
+</div>
+<div id="list"></div>
+<div id="tileStatus">Kartenverbindung wird geprüft …</div>
+<p class="note">Die Linien verbinden die angegebenen Stationen. Sie sind keine exakten GPX-Tracks. Die Koordinaten können in <b>wanderungen.js</b> leicht korrigiert oder ergänzt werden.</p>
+</aside>
+<div id="map"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="wanderungen.js"></script>
+<script>
+const tours=window.WANDERUNGEN;
+const routeColors=['#2563eb','#7c3aed','#0891b2','#c026d3','#0f766e','#ea580c','#4f46e5','#9333ea','#be123c','#0369a1','#65a30d','#b45309','#0e7490','#6d28d9','#15803d','#c2410c'];
+const typeColors={start:'#16a34a',mid:'#facc15',peak:'#dc2626'};
+const map=L.map('map',{zoomControl:true,preferCanvas:true,minZoom:7,maxZoom:19});
+const tiles=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
+ maxZoom:19,attribution:'&copy; OpenStreetMap-Mitwirkende',updateWhenIdle:false,keepBuffer:5
+}).addTo(map);
+let loaded=0,errors=0;
+const status=document.getElementById('tileStatus');
+tiles.on('tileload',()=>{loaded++;status.textContent=`OpenStreetMap aktiv · ${loaded} Kartenfelder geladen${errors?` · ${errors} Fehler`:''}`;});
+tiles.on('tileerror',()=>{errors++;status.textContent=`${errors} Kartenfelder konnten nicht geladen werden.`;status.style.background='#fee2e2';});
+const groups=new Map(), allBounds=L.latLngBounds(), markers=[];
+let labelsVisible=true;
+function icon(type){return L.divIcon({className:'',html:`<div class="pin" style="background:${typeColors[type]}"></div>`,iconSize:[9,9],iconAnchor:[4.5,4.5],popupAnchor:[0,-6]});}
+tours.forEach((tour,i)=>{
+ const g=L.layerGroup(), ll=[];
+ tour.points.forEach(p=>{
+  const pos=[p.lat,p.lon]; ll.push(pos); allBounds.extend(pos);
+  const m=L.marker(pos,{icon:icon(p.type),title:p.name});
+  m.bindPopup(`<b>${tour.year} · ${tour.name}</b><br>${p.name}<br><span style="color:#64748b">${p.info}</span>`);
+  m.bindTooltip(p.name,{permanent:true,direction:'right',offset:[5,-3],className:'map-label'});
+  markers.push(m);m.addTo(g);
+ });
+ L.polyline(ll,{color:routeColors[i%routeColors.length],weight:2,opacity:.78}).addTo(g);
+ g.addTo(map);groups.set(tour.year,g);
+});
+function fit(){map.fitBounds(allBounds.pad(.07),{maxZoom:10});setTimeout(()=>map.invalidateSize(true),100);}
+fit();
+const list=document.getElementById('list');
+tours.forEach((t,i)=>{
+ const d=document.createElement('div');d.className='tour';
+ const cb=document.createElement('input');cb.type='checkbox';cb.checked=true;cb.id='y'+t.year;
+ cb.addEventListener('change',()=>{const g=groups.get(t.year);cb.checked?g.addTo(map):map.removeLayer(g);});
+ const l=document.createElement('label');l.htmlFor=cb.id;l.innerHTML=`<b style="color:${routeColors[i%routeColors.length]}">${t.year}</b> · ${t.name}`;
+ d.append(cb,l);list.appendChild(d);
+});
+document.getElementById('fit').addEventListener('click',fit);
+document.getElementById('labels').addEventListener('click',e=>{
+ labelsVisible=!labelsVisible;markers.forEach(m=>labelsVisible?m.openTooltip():m.closeTooltip());
+ e.target.textContent=labelsVisible?'Beschriftungen aus':'Beschriftungen ein';
+});
+document.getElementById('showAll').addEventListener('click',()=>{
+ document.querySelectorAll('.tour input').forEach(cb=>{cb.checked=true;const g=groups.get(Number(cb.id.slice(1)));if(!map.hasLayer(g))g.addTo(map);});
+});
+document.getElementById('hideAll').addEventListener('click',()=>{
+ document.querySelectorAll('.tour input').forEach(cb=>{cb.checked=false;const g=groups.get(Number(cb.id.slice(1)));if(map.hasLayer(g))map.removeLayer(g);});
+});
+window.addEventListener('load',()=>setTimeout(()=>map.invalidateSize(true),200));
+</script>
+</body>
+</html>
