@@ -5,10 +5,10 @@ window.WANDERUNGEN = [
     "points": [
       {
         "type": "start",
-        "name": "Angerleweg 22, Obsteig",
-        "lat": 47.3006097,
-        "lon": 10.9106092,
-        "info": "Startpunkt: Angerleweg 22, 6416 Obsteig"
+        "name": "Angerleweg 37, Obsteig",
+        "lat": 47.3014138,
+        "lon": 10.9111243,
+        "info": "Startpunkt: Angerleweg 37, 6416 Obsteig"
       },
       {
         "type": "mid",
@@ -32,10 +32,10 @@ window.WANDERUNGEN = [
     "points": [
       {
         "type": "start",
-        "name": "Angerleweg 22, Obsteig",
-        "lat": 47.3006097,
-        "lon": 10.9106092,
-        "info": "Startpunkt: Angerleweg 22, 6416 Obsteig"
+        "name": "Angerleweg 37, Obsteig",
+        "lat": 47.3014138,
+        "lon": 10.9111243,
+        "info": "Startpunkt: Angerleweg 37, 6416 Obsteig"
       },
       {
         "type": "mid",
@@ -59,10 +59,10 @@ window.WANDERUNGEN = [
     "points": [
       {
         "type": "start",
-        "name": "Angerleweg 22, Obsteig",
-        "lat": 47.3006097,
-        "lon": 10.9106092,
-        "info": "Startpunkt: Angerleweg 22, 6416 Obsteig"
+        "name": "Angerleweg 37, Obsteig",
+        "lat": 47.3014138,
+        "lon": 10.9111243,
+        "info": "Startpunkt: Angerleweg 37, 6416 Obsteig"
       },
       {
         "type": "mid",
@@ -175,10 +175,10 @@ window.WANDERUNGEN = [
     "points": [
       {
         "type": "start",
-        "name": "Angerleweg 22, Obsteig",
-        "lat": 47.3006097,
-        "lon": 10.9106092,
-        "info": "Startpunkt: Angerleweg 22, 6416 Obsteig"
+        "name": "Angerleweg 37, Obsteig",
+        "lat": 47.3014138,
+        "lon": 10.9111243,
+        "info": "Startpunkt: Angerleweg 37, 6416 Obsteig"
       },
       {
         "type": "mid",
@@ -243,10 +243,10 @@ window.WANDERUNGEN = [
     "points": [
       {
         "type": "start",
-        "name": "Angerleweg 22, Obsteig",
-        "lat": 47.3006097,
-        "lon": 10.9106092,
-        "info": "Startpunkt: Angerleweg 22, 6416 Obsteig"
+        "name": "Angerleweg 37, Obsteig",
+        "lat": 47.3014138,
+        "lon": 10.9111243,
+        "info": "Startpunkt: Angerleweg 37, 6416 Obsteig"
       },
       {
         "type": "mid",
@@ -365,10 +365,10 @@ window.WANDERUNGEN = [
     "points": [
       {
         "type": "start",
-        "name": "Angerleweg 22, Obsteig",
-        "lat": 47.3006097,
-        "lon": 10.9106092,
-        "info": "Startpunkt: Angerleweg 22, 6416 Obsteig"
+        "name": "Angerleweg 37, Obsteig",
+        "lat": 47.3014138,
+        "lon": 10.9111243,
+        "info": "Startpunkt: Angerleweg 37, 6416 Obsteig"
       },
       {
         "type": "mid",
@@ -495,10 +495,10 @@ window.WANDERUNGEN = [
     "points": [
       {
         "type": "start",
-        "name": "Angerleweg 22, Obsteig",
-        "lat": 47.3006097,
-        "lon": 10.9106092,
-        "info": "Startpunkt: Angerleweg 22, 6416 Obsteig"
+        "name": "Angerleweg 37, Obsteig",
+        "lat": 47.3014138,
+        "lon": 10.9111243,
+        "info": "Startpunkt: Angerleweg 37, 6416 Obsteig"
       },
       {
         "type": "mid",
