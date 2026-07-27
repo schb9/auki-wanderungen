@@ -19,6 +19,7 @@ button{border:1px solid #cbd5e1;border-radius:7px;background:#fff;padding:7px 9p
 .tour input{width:15px;height:15px}
 #map{height:100%;width:100%;background:#e5e7eb}
 .pin{width:9px;height:9px;border-radius:50%;border:1px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.65)}
+.home-pin{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;background:#16a34a;color:#fff;border:2px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.55);font-size:16px;font-weight:700;line-height:1}
 .map-label{font-size:8px;font-weight:600;color:#111827;background:rgba(255,255,255,.82);border:1px solid rgba(0,0,0,.18);border-radius:2px;padding:0 2px;white-space:nowrap;box-shadow:none}
 .leaflet-tooltip.map-label:before{display:none}
 #tileStatus{margin-top:9px;padding:6px;border-radius:7px;background:#f1f5f9;font-size:.75rem;color:#475569}
@@ -37,7 +38,7 @@ button{border:1px solid #cbd5e1;border-radius:7px;background:#fff;padding:7px 9p
 <div class="app">
 <aside id="sidebar">
 <h1>Auki Wanderungen</h1>
-<div class="sub">2009–2026 · OpenStreetMap</div>
+<div class="sub">2009–2026 · Version 3</div>
 <div class="legend">
 <div><span class="dot" style="background:#16a34a"></span>Ausgangspunkt</div>
 <div><span class="dot" style="background:#facc15"></span>Zwischenstation</div>
@@ -48,6 +49,7 @@ button{border:1px solid #cbd5e1;border-radius:7px;background:#fff;padding:7px 9p
 <button id="labels">Beschriftungen aus</button>
 <button id="showAll">Alle ein</button>
 <button id="hideAll">Alle aus</button>
+<button id="baseMap">Topografisch</button>
 </div>
 <div id="list"></div>
 <div id="tileStatus">Kartenverbindung wird geprüft …</div>
@@ -56,22 +58,25 @@ button{border:1px solid #cbd5e1;border-radius:7px;background:#fff;padding:7px 9p
 <div id="map"></div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="wanderungen.js"></script>
+<script src="wanderungen.js?v=3"></script>
 <script>
 const tours=window.WANDERUNGEN;
 const routeColors=['#2563eb','#7c3aed','#0891b2','#c026d3','#0f766e','#ea580c','#4f46e5','#9333ea','#be123c','#0369a1','#65a30d','#b45309','#0e7490','#6d28d9','#15803d','#c2410c'];
 const typeColors={start:'#16a34a',mid:'#facc15',peak:'#dc2626'};
 const map=L.map('map',{zoomControl:true,preferCanvas:true,minZoom:7,maxZoom:19});
-const tiles=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
- maxZoom:19,attribution:'&copy; OpenStreetMap-Mitwirkende',updateWhenIdle:false,keepBuffer:5
-}).addTo(map);
+const osm=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap-Mitwirkende',updateWhenIdle:false,keepBuffer:5});
+const topo=L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',{maxZoom:17,attribution:'Kartendaten &copy; OpenStreetMap-Mitwirkende, Kartendarstellung &copy; OpenTopoMap'});
+let tiles=osm.addTo(map);
 let loaded=0,errors=0;
 const status=document.getElementById('tileStatus');
-tiles.on('tileload',()=>{loaded++;status.textContent=`OpenStreetMap aktiv · ${loaded} Kartenfelder geladen${errors?` · ${errors} Fehler`:''}`;});
-tiles.on('tileerror',()=>{errors++;status.textContent=`${errors} Kartenfelder konnten nicht geladen werden.`;status.style.background='#fee2e2';});
+osm.on('tileload',()=>{loaded++;status.textContent=`OpenStreetMap aktiv · ${loaded} Kartenfelder geladen${errors?` · ${errors} Fehler`:''}`;});
+osm.on('tileerror',()=>{errors++;status.textContent=`${errors} Kartenfelder konnten nicht geladen werden.`;status.style.background='#fee2e2';});
 const groups=new Map(), allBounds=L.latLngBounds(), markers=[];
 let labelsVisible=true;
-function icon(type){return L.divIcon({className:'',html:`<div class="pin" style="background:${typeColors[type]}"></div>`,iconSize:[9,9],iconAnchor:[4.5,4.5],popupAnchor:[0,-6]});}
+function icon(type){
+ if(type==='start') return L.divIcon({className:'',html:'<div class="home-pin" aria-hidden="true">⌂</div>',iconSize:[22,22],iconAnchor:[11,11],popupAnchor:[0,-12]});
+ return L.divIcon({className:'',html:`<div class="pin" style="background:${typeColors[type]}"></div>`,iconSize:[9,9],iconAnchor:[4.5,4.5],popupAnchor:[0,-6]});
+}
 tours.forEach((tour,i)=>{
  const g=L.layerGroup(), ll=[];
  tour.points.forEach(p=>{
@@ -104,6 +109,13 @@ document.getElementById('showAll').addEventListener('click',()=>{
 });
 document.getElementById('hideAll').addEventListener('click',()=>{
  document.querySelectorAll('.tour input').forEach(cb=>{cb.checked=false;const g=groups.get(Number(cb.id.slice(1)));if(map.hasLayer(g))map.removeLayer(g);});
+});
+document.getElementById('baseMap').addEventListener('click',e=>{
+ const useTopo=map.hasLayer(osm);
+ map.removeLayer(useTopo?osm:topo);
+ (useTopo?topo:osm).addTo(map);
+ e.target.textContent=useTopo?'Straßenkarte':'Topografisch';
+ status.textContent=useTopo?'OpenTopoMap aktiv':'OpenStreetMap aktiv';
 });
 document.getElementById('menuBtn').addEventListener('click',()=>document.getElementById('sidebar').classList.toggle('open'));
 window.addEventListener('load',()=>setTimeout(()=>map.invalidateSize(true),200));

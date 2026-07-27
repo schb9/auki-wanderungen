@@ -12,7 +12,7 @@ window.WANDERUNGEN = [
       },
       {
         "type": "mid",
-        "name": "Lehnberghütte / Lehnberghaus",
+        "name": "Lehnberghaus",
         "lat": 47.3272,
         "lon": 10.9235,
         "info": "Zwischenstation"
@@ -66,7 +66,7 @@ window.WANDERUNGEN = [
       },
       {
         "type": "mid",
-        "name": "Lehnberghütte / Lehnberghaus",
+        "name": "Lehnberghaus",
         "lat": 47.3272,
         "lon": 10.9235,
         "info": "Zwischenstation"
@@ -142,29 +142,29 @@ window.WANDERUNGEN = [
       {
         "type": "start",
         "name": "Haiminger Sattele",
-        "lat": 47.233061,
-        "lon": 10.928996,
+        "lat": 47.231208,
+        "lon": 10.927717,
         "info": "Ausgangspunkt · ca. 1.690 m"
       },
       {
         "type": "mid",
-        "name": "Faltegartenköpfl",
-        "lat": 47.2182,
-        "lon": 10.9536,
-        "info": "Zwischenstation · ca. 2.184 m"
+        "name": "Faltegartenkögele",
+        "lat": 47.24372,
+        "lon": 10.95787,
+        "info": "Zwischenstation · ca. 2.182 m"
       },
       {
         "type": "mid",
         "name": "Stamser Alm",
-        "lat": 47.2555,
-        "lon": 10.969,
+        "lat": 47.2492,
+        "lon": 11.0056,
         "info": "Zwischenstation"
       },
       {
         "type": "peak",
         "name": "Pirchkogel",
-        "lat": 47.2039,
-        "lon": 10.9827,
+        "lat": 47.23201,
+        "lon": 10.99895,
         "info": "Gipfel · ca. 2.828 m"
       }
     ]
@@ -399,14 +399,14 @@ window.WANDERUNGEN = [
       },
       {
         "type": "mid",
-        "name": "Gogles-Alm",
-        "lat": 47.1458,
-        "lon": 10.6915,
+        "name": "Gogles Alm",
+        "lat": 47.13736,
+        "lon": 10.65726,
         "info": "Zwischenstation · ca. 2.017 m · ungefähre Position"
       },
       {
         "type": "mid",
-        "name": "Gaflunhütte / Galflun Alm",
+        "name": "Galflun Alm",
         "lat": 47.149124,
         "lon": 10.684274,
         "info": "Zwischenstation · Galflun Alm · überprüfte Kartenposition"
@@ -414,36 +414,36 @@ window.WANDERUNGEN = [
       {
         "type": "mid",
         "name": "Larcher Alm",
-        "lat": 47.1515,
-        "lon": 10.744,
-        "info": "Zwischenstation · ca. 1.814 m · ungefähre Position"
+        "lat": 47.15706,
+        "lon": 10.69489,
+        "info": "Zwischenstation · ca. 1.814 m · korrigierte Kartenposition"
       },
       {
         "type": "mid",
-        "name": "Imsterberger Venet Alm",
-        "lat": 47.17,
-        "lon": 10.758,
-        "info": "Zwischenstation · ca. 1.980 m · ungefähre Position"
+        "name": "Imsterberger Venetalm",
+        "lat": 47.165,
+        "lon": 10.708,
+        "info": "Zwischenstation · ca. 1.980 m · korrigierte Kartenposition"
       },
       {
         "type": "mid",
-        "name": "Imsterberg Joch",
-        "lat": 47.1815,
-        "lon": 10.733,
-        "info": "Zwischenstation · ungefähre Position"
+        "name": "Imsterbergjoch",
+        "lat": 47.170,
+        "lon": 10.696,
+        "info": "Zwischenstation · korrigierte Kartenposition"
       },
       {
         "type": "mid",
         "name": "Kreuzjoch",
-        "lat": 47.15992,
-        "lon": 10.675749,
+        "lat": 47.1757,
+        "lon": 10.6827,
         "info": "Zwischenstation · ca. 2.464 m · überprüfte Kartenposition"
       },
       {
         "type": "peak",
         "name": "Glanderspitze",
-        "lat": 47.148583,
-        "lon": 10.661583,
+        "lat": 47.14845,
+        "lon": 10.66160,
         "info": "Gipfel · ca. 2.512 m · überprüfte Kartenposition"
       }
     ]
