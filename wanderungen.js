@@ -74,9 +74,9 @@ window.WANDERUNGEN = [
       {
         "type": "mid",
         "name": "Hölltörl",
-        "lat": 47.3351,
-        "lon": 10.9064,
-        "info": "Zwischenstation"
+        "lat": 47.343402,
+        "lon": 10.917784,
+        "info": "Zwischenstation · überprüfte Kartenposition"
       },
       {
         "type": "mid",
@@ -108,30 +108,30 @@ window.WANDERUNGEN = [
       {
         "type": "mid",
         "name": "Wangalm",
-        "lat": 47.3894,
-        "lon": 11.098,
-        "info": "Zwischenstation · ca. 1.753 m"
+        "lat": 47.381753,
+        "lon": 11.109818,
+        "info": "Zwischenstation · 1.751 m · überprüfte Kartenposition"
       },
       {
         "type": "mid",
         "name": "Plattach / Rossberg",
         "lat": 47.404,
         "lon": 11.063,
-        "info": "Zwischenstation · ca. 2.096 m"
+        "info": "Zwischenstation · ca. 2.096 m · ungefähre Position"
       },
       {
         "type": "mid",
         "name": "Rotmoosalm",
-        "lat": 47.397,
-        "lon": 11.074,
-        "info": "Zwischenstation · ca. 2.030 m"
+        "lat": 47.384142,
+        "lon": 11.077443,
+        "info": "Zwischenstation · ca. 2.030 m · überprüfte Kartenposition"
       },
       {
         "type": "peak",
         "name": "Schönberg",
         "lat": 47.411,
         "lon": 11.052,
-        "info": "Gipfel · ca. 2.142 m"
+        "info": "Gipfel · ca. 2.142 m · ungefähre Position"
       }
     ]
   },
@@ -212,28 +212,28 @@ window.WANDERUNGEN = [
         "name": "Rosskogelhütte",
         "lat": 47.235,
         "lon": 11.1555,
-        "info": "Ausgangspunkt · ca. 1.778 m"
+        "info": "Ausgangspunkt · ca. 1.778 m · ungefähre Position"
       },
       {
         "type": "mid",
         "name": "Hundstalsee",
-        "lat": 47.2015,
-        "lon": 11.145,
-        "info": "Zwischenstation · ca. 2.289 m"
+        "lat": 47.2229,
+        "lon": 11.1366,
+        "info": "Zwischenstation · 2.289 m · überprüfte Kartenposition"
       },
       {
         "type": "mid",
         "name": "Rangger Köpfl",
-        "lat": 47.237,
-        "lon": 11.169,
-        "info": "Zwischenstation · ca. 1.939 m"
+        "lat": 47.24232,
+        "lon": 11.181075,
+        "info": "Zwischenstation · 1.939 m · überprüfte Kartenposition"
       },
       {
         "type": "peak",
         "name": "Rosskogel",
-        "lat": 47.199,
-        "lon": 11.174,
-        "info": "Gipfel · ca. 2.646 m"
+        "lat": 47.222999,
+        "lon": 11.152611,
+        "info": "Gipfel · 2.646 m · überprüfte Kartenposition"
       }
     ]
   },
@@ -402,49 +402,49 @@ window.WANDERUNGEN = [
         "name": "Gogles-Alm",
         "lat": 47.1458,
         "lon": 10.6915,
-        "info": "Zwischenstation · ca. 2.017 m"
+        "info": "Zwischenstation · ca. 2.017 m · ungefähre Position"
       },
       {
         "type": "mid",
         "name": "Gaflunhütte / Galflun Alm",
-        "lat": 47.159,
-        "lon": 10.721,
-        "info": "Zwischenstation"
+        "lat": 47.149124,
+        "lon": 10.684274,
+        "info": "Zwischenstation · Galflun Alm · überprüfte Kartenposition"
       },
       {
         "type": "mid",
         "name": "Larcher Alm",
         "lat": 47.1515,
         "lon": 10.744,
-        "info": "Zwischenstation · ca. 1.814 m"
+        "info": "Zwischenstation · ca. 1.814 m · ungefähre Position"
       },
       {
         "type": "mid",
         "name": "Imsterberger Venet Alm",
         "lat": 47.17,
         "lon": 10.758,
-        "info": "Zwischenstation · ca. 1.980 m"
+        "info": "Zwischenstation · ca. 1.980 m · ungefähre Position"
       },
       {
         "type": "mid",
         "name": "Imsterberg Joch",
         "lat": 47.1815,
         "lon": 10.733,
-        "info": "Zwischenstation"
+        "info": "Zwischenstation · ungefähre Position"
       },
       {
         "type": "mid",
         "name": "Kreuzjoch",
-        "lat": 47.172,
-        "lon": 10.704,
-        "info": "Zwischenstation · ca. 2.464 m"
+        "lat": 47.15992,
+        "lon": 10.675749,
+        "info": "Zwischenstation · ca. 2.464 m · überprüfte Kartenposition"
       },
       {
         "type": "peak",
         "name": "Glanderspitze",
-        "lat": 47.151,
-        "lon": 10.711,
-        "info": "Gipfel · ca. 2.512 m"
+        "lat": 47.148583,
+        "lon": 10.661583,
+        "info": "Gipfel · ca. 2.512 m · überprüfte Kartenposition"
       }
     ]
   },
