@@ -13,16 +13,16 @@ window.WANDERUNGEN = [
       {
         "type": "mid",
         "name": "Lehnberghaus",
-        "lat": 47.3272,
-        "lon": 10.9235,
-        "info": "Zwischenstation"
+        "lat": 47.32856,
+        "lon": 10.92652,
+        "info": "Zwischenstation · 1.554 m"
       },
       {
         "type": "peak",
         "name": "Wankspitze",
-        "lat": 47.3179,
-        "lon": 10.9545,
-        "info": "Gipfel · ca. 2.209 m"
+        "lat": 47.3375,
+        "lon": 10.93861,
+        "info": "Gipfel · 2.208 m"
       }
     ]
   },
@@ -39,17 +39,17 @@ window.WANDERUNGEN = [
       },
       {
         "type": "mid",
-        "name": "Simmeringer Alm",
-        "lat": 47.296,
-        "lon": 10.9805,
-        "info": "Zwischenstation · ca. 1.813 m"
+        "name": "Simmeringalm",
+        "lat": 47.28313,
+        "lon": 10.88129,
+        "info": "Zwischenstation · 1.813 m"
       },
       {
         "type": "peak",
         "name": "Simmering",
-        "lat": 47.2865,
-        "lon": 10.9975,
-        "info": "Gipfel · ca. 2.096 m"
+        "lat": 47.27812,
+        "lon": 10.8666,
+        "info": "Gipfel · 2.096 m"
       }
     ]
   },
@@ -67,30 +67,30 @@ window.WANDERUNGEN = [
       {
         "type": "mid",
         "name": "Lehnberghaus",
-        "lat": 47.3272,
-        "lon": 10.9235,
-        "info": "Zwischenstation"
+        "lat": 47.32856,
+        "lon": 10.92652,
+        "info": "Zwischenstation · 1.554 m"
       },
       {
         "type": "mid",
         "name": "Hölltörl",
-        "lat": 47.343402,
-        "lon": 10.917784,
-        "info": "Zwischenstation · überprüfte Kartenposition"
+        "lat": 47.3433,
+        "lon": 10.9178,
+        "info": "Zwischenstation · 2.126 m"
       },
       {
         "type": "mid",
         "name": "Marienbergalm",
-        "lat": 47.337,
-        "lon": 10.8997,
-        "info": "Zwischenstation · ca. 1.623 m"
+        "lat": 47.34209,
+        "lon": 10.89952,
+        "info": "Zwischenstation · 1.622 m"
       },
       {
         "type": "peak",
         "name": "Höllkopf",
-        "lat": 47.3285,
-        "lon": 10.9115,
-        "info": "Gipfel · ca. 2.194 m"
+        "lat": 47.34176,
+        "lon": 10.91818,
+        "info": "Gipfel · 2.194 m"
       }
     ]
   },
@@ -101,37 +101,37 @@ window.WANDERUNGEN = [
       {
         "type": "start",
         "name": "Leutasch / Gaistal",
-        "lat": 47.3655,
-        "lon": 11.1295,
-        "info": "Ausgangspunkt"
+        "lat": 47.365273,
+        "lon": 11.0939,
+        "info": "Ausgangspunkt · Parkplatz Salzbach/Gaistal"
       },
       {
         "type": "mid",
         "name": "Wangalm",
-        "lat": 47.381753,
-        "lon": 11.109818,
-        "info": "Zwischenstation · 1.751 m · überprüfte Kartenposition"
+        "lat": 47.38174,
+        "lon": 11.10984,
+        "info": "Zwischenstation · 1.751 m"
       },
       {
         "type": "mid",
-        "name": "Plattach / Rossberg",
-        "lat": 47.404,
-        "lon": 11.063,
-        "info": "Zwischenstation · ca. 2.096 m · ungefähre Position"
+        "name": "Plattach / Roßberg",
+        "lat": 47.3836,
+        "lon": 11.1007,
+        "info": "Zwischenstation · Plattach/Roßberg · 2.096 m"
       },
       {
         "type": "mid",
         "name": "Rotmoosalm",
-        "lat": 47.384142,
-        "lon": 11.077443,
-        "info": "Zwischenstation · ca. 2.030 m · überprüfte Kartenposition"
+        "lat": 47.38345,
+        "lon": 11.07709,
+        "info": "Zwischenstation · 2.030 m"
       },
       {
         "type": "peak",
         "name": "Schönberg",
-        "lat": 47.411,
-        "lon": 11.052,
-        "info": "Gipfel · ca. 2.142 m · ungefähre Position"
+        "lat": 47.38877,
+        "lon": 11.07631,
+        "info": "Gipfel · 2.142 m"
       }
     ]
   },
@@ -141,31 +141,31 @@ window.WANDERUNGEN = [
     "points": [
       {
         "type": "start",
-        "name": "Haiminger Sattele",
-        "lat": 47.231208,
+        "name": "Sattele (Haiminger Sattele)",
+        "lat": 47.231211,
         "lon": 10.927717,
-        "info": "Ausgangspunkt · ca. 1.690 m"
+        "info": "Ausgangspunkt · Sattele · 1.690 m"
       },
       {
         "type": "mid",
         "name": "Faltegartenkögele",
-        "lat": 47.24372,
-        "lon": 10.95787,
-        "info": "Zwischenstation · ca. 2.182 m"
+        "lat": 47.243767,
+        "lon": 10.958194,
+        "info": "Zwischenstation · 2.184 m"
       },
       {
         "type": "mid",
         "name": "Stamser Alm",
-        "lat": 47.2492,
-        "lon": 11.0056,
-        "info": "Zwischenstation"
+        "lat": 47.24925,
+        "lon": 11.00548,
+        "info": "Zwischenstation · 1.873 m"
       },
       {
         "type": "peak",
         "name": "Pirchkogel",
         "lat": 47.23201,
         "lon": 10.99895,
-        "info": "Gipfel · ca. 2.828 m"
+        "info": "Gipfel · 2.828 m"
       }
     ]
   },
@@ -183,22 +183,22 @@ window.WANDERUNGEN = [
       {
         "type": "mid",
         "name": "Marienbergalm",
-        "lat": 47.337,
-        "lon": 10.8997,
-        "info": "Zwischenstation · ca. 1.623 m"
+        "lat": 47.34209,
+        "lon": 10.89952,
+        "info": "Zwischenstation · 1.622 m"
       },
       {
         "type": "mid",
         "name": "Höllkopf",
-        "lat": 47.3285,
-        "lon": 10.9115,
-        "info": "Zwischenstation · ca. 2.194 m"
+        "lat": 47.34176,
+        "lon": 10.91818,
+        "info": "Zwischenstation · 2.194 m"
       },
       {
         "type": "peak",
         "name": "Handschuhspitze",
-        "lat": 47.340219,
-        "lon": 10.882537,
+        "lat": 47.34029,
+        "lon": 10.88254,
         "info": "Gipfel · 2.319 m"
       }
     ]
@@ -209,31 +209,31 @@ window.WANDERUNGEN = [
     "points": [
       {
         "type": "start",
-        "name": "Rosskogelhütte",
-        "lat": 47.235,
-        "lon": 11.1555,
-        "info": "Ausgangspunkt · ca. 1.778 m · ungefähre Position"
+        "name": "Roßkogelhütte",
+        "lat": 47.24069,
+        "lon": 11.19045,
+        "info": "Ausgangspunkt · 1.778 m"
       },
       {
         "type": "mid",
         "name": "Hundstalsee",
-        "lat": 47.2229,
-        "lon": 11.1366,
-        "info": "Zwischenstation · 2.289 m · überprüfte Kartenposition"
+        "lat": 47.22278,
+        "lon": 11.13611,
+        "info": "Zwischenstation · 2.287 m"
       },
       {
         "type": "mid",
         "name": "Rangger Köpfl",
-        "lat": 47.24232,
-        "lon": 11.181075,
-        "info": "Zwischenstation · 1.939 m · überprüfte Kartenposition"
+        "lat": 47.24265,
+        "lon": 11.18143,
+        "info": "Zwischenstation · 1.939 m"
       },
       {
         "type": "peak",
-        "name": "Rosskogel",
+        "name": "Roßkogel",
         "lat": 47.222999,
         "lon": 11.152611,
-        "info": "Gipfel · 2.646 m · überprüfte Kartenposition"
+        "info": "Gipfel · 2.646 m"
       }
     ]
   },
@@ -251,22 +251,22 @@ window.WANDERUNGEN = [
       {
         "type": "mid",
         "name": "Marienbergalm",
-        "lat": 47.337,
-        "lon": 10.8997,
-        "info": "Zwischenstation · ca. 1.623 m"
+        "lat": 47.34209,
+        "lon": 10.89952,
+        "info": "Zwischenstation · 1.622 m"
       },
       {
         "type": "mid",
         "name": "Höllkopf",
-        "lat": 47.3285,
-        "lon": 10.9115,
-        "info": "Zwischenstation"
+        "lat": 47.34176,
+        "lon": 10.91818,
+        "info": "Zwischenstation · 2.194 m"
       },
       {
         "type": "peak",
         "name": "Handschuhspitze",
-        "lat": 47.340219,
-        "lon": 10.882537,
+        "lat": 47.34029,
+        "lon": 10.88254,
         "info": "Gipfel · 2.319 m"
       }
     ]
@@ -277,10 +277,10 @@ window.WANDERUNGEN = [
     "points": [
       {
         "type": "start",
-        "name": "Hochzirl",
-        "lat": 47.2805,
-        "lon": 11.2478,
-        "info": "Ausgangspunkt"
+        "name": "Bahnhof Hochzirl",
+        "lat": 47.281,
+        "lon": 11.24972,
+        "info": "Ausgangspunkt · Bahnhof Hochzirl · 922 m"
       },
       {
         "type": "mid",
@@ -292,16 +292,16 @@ window.WANDERUNGEN = [
       {
         "type": "mid",
         "name": "Erlspitze",
-        "lat": 47.32,
-        "lon": 11.28528,
+        "lat": 47.32012,
+        "lon": 11.28504,
         "info": "Zwischenstation · 2.405 m"
       },
       {
         "type": "peak",
         "name": "Großer Solstein",
-        "lat": 47.3158,
-        "lon": 11.2752,
-        "info": "Gipfel · ca. 2.540 m"
+        "lat": 47.30271,
+        "lon": 11.30766,
+        "info": "Gipfel · 2.541 m"
       }
     ]
   },
@@ -318,10 +318,10 @@ window.WANDERUNGEN = [
       },
       {
         "type": "mid",
-        "name": "Nassereither Alm",
-        "lat": 47.344,
-        "lon": 10.844,
-        "info": "Zwischenstation · auch Muthenaualm"
+        "name": "Nassereither Alm (Muthenaualm)",
+        "lat": 47.34169,
+        "lon": 10.84487,
+        "info": "Zwischenstation · Muthenaualm · 1.743 m"
       },
       {
         "type": "peak",
@@ -346,16 +346,16 @@ window.WANDERUNGEN = [
       {
         "type": "mid",
         "name": "Potsdamer Hütte",
-        "lat": 47.1624,
-        "lon": 11.2039,
-        "info": "Zwischenstation · ca. 2.009 m"
+        "lat": 47.143056,
+        "lon": 11.208611,
+        "info": "Zwischenstation · 2.009 m"
       },
       {
         "type": "peak",
         "name": "Roter Kogel",
-        "lat": 47.13333,
-        "lon": 11.16667,
-        "info": "Gipfel · ca. 2.832 m"
+        "lat": 47.13789,
+        "lon": 11.16918,
+        "info": "Gipfel · 2.832 m"
       }
     ]
   },
@@ -372,10 +372,10 @@ window.WANDERUNGEN = [
       },
       {
         "type": "mid",
-        "name": "Muthenau Alm",
-        "lat": 47.344,
-        "lon": 10.844,
-        "info": "Zwischenstation · auch Nassereither Alm"
+        "name": "Muthenaualm (Nassereither Alm)",
+        "lat": 47.34169,
+        "lon": 10.84487,
+        "info": "Zwischenstation · Nassereither Alm · 1.743 m"
       },
       {
         "type": "peak",
@@ -400,35 +400,35 @@ window.WANDERUNGEN = [
       {
         "type": "mid",
         "name": "Gogles Alm",
-        "lat": 47.13736,
-        "lon": 10.65726,
-        "info": "Zwischenstation · ca. 2.017 m · ungefähre Position"
+        "lat": 47.137385,
+        "lon": 10.657281,
+        "info": "Zwischenstation · 2.016 m"
       },
       {
         "type": "mid",
         "name": "Galflun Alm",
-        "lat": 47.149124,
-        "lon": 10.684274,
-        "info": "Zwischenstation · Galflun Alm · überprüfte Kartenposition"
+        "lat": 47.14912,
+        "lon": 10.68427,
+        "info": "Zwischenstation · 1.960 m"
       },
       {
         "type": "mid",
         "name": "Larcher Alm",
         "lat": 47.15706,
         "lon": 10.69489,
-        "info": "Zwischenstation · ca. 1.814 m · korrigierte Kartenposition"
+        "info": "Zwischenstation · 1.814 m"
       },
       {
         "type": "mid",
         "name": "Imsterberger Venetalm",
-        "lat": 47.165,
-        "lon": 10.708,
-        "info": "Zwischenstation · ca. 1.980 m · korrigierte Kartenposition"
+        "lat": 47.177537,
+        "lon": 10.698913,
+        "info": "Zwischenstation · ca. 1.980 m"
       },
       {
         "type": "mid",
         "name": "Imsterbergjoch",
-        "lat": 47.170,
+        "lat": 47.17,
         "lon": 10.696,
         "info": "Zwischenstation · korrigierte Kartenposition"
       },
@@ -442,9 +442,9 @@ window.WANDERUNGEN = [
       {
         "type": "peak",
         "name": "Glanderspitze",
-        "lat": 47.14845,
-        "lon": 10.66160,
-        "info": "Gipfel · ca. 2.512 m · überprüfte Kartenposition"
+        "lat": 47.148342,
+        "lon": 10.661674,
+        "info": "Gipfel · 2.512 m"
       }
     ]
   },
@@ -461,10 +461,10 @@ window.WANDERUNGEN = [
       },
       {
         "type": "mid",
-        "name": "Gleirsch Alm",
-        "lat": 47.1806,
-        "lon": 11.1045,
-        "info": "Zwischenstation"
+        "name": "Gleirschalm",
+        "lat": 47.18893,
+        "lon": 11.09908,
+        "info": "Zwischenstation · 1.666 m"
       },
       {
         "type": "mid",
@@ -503,16 +503,16 @@ window.WANDERUNGEN = [
       {
         "type": "mid",
         "name": "Lehnberghaus",
-        "lat": 47.3272,
-        "lon": 10.9235,
-        "info": "Zwischenstation · ca. 1.554 m"
+        "lat": 47.32856,
+        "lon": 10.92652,
+        "info": "Zwischenstation · 1.554 m"
       },
       {
         "type": "peak",
         "name": "Wankspitze",
-        "lat": 47.3179,
-        "lon": 10.9545,
-        "info": "Gipfel · ca. 2.209 m"
+        "lat": 47.3375,
+        "lon": 10.93861,
+        "info": "Gipfel · 2.208 m"
       }
     ]
   },
