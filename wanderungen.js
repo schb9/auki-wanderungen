@@ -216,13 +216,6 @@ window.WANDERUNGEN = [
       },
       {
         "type": "mid",
-        "name": "Hundstalsee",
-        "lat": 47.22278,
-        "lon": 11.13611,
-        "info": "Zwischenstation · 2.287 m"
-      },
-      {
-        "type": "mid",
         "name": "Rangger Köpfl",
         "lat": 47.24265,
         "lon": 11.18143,
@@ -537,9 +530,9 @@ window.WANDERUNGEN = [
       {
         "type": "peak",
         "name": "Gamskogel",
-        "lat": 47.1388,
-        "lon": 11.303,
-        "info": "Gipfel · ca. 2.659 m"
+        "lat": 47.14294,
+        "lon": 11.25991,
+        "info": "Gipfel · 2.659 m"
       }
     ]
   }
