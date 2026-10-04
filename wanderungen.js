@@ -18,6 +18,13 @@ window.WANDERUNGEN = [
         "info": "Zwischenstation · 1.554 m"
       },
       {
+        "type": "mid",
+        "name": "Lacke",
+        "lat": 47.32666,
+        "lon": 10.93436,
+        "info": "Aussichtspunkt · ca. 1.690 m"
+      },
+      {
         "type": "peak",
         "name": "Wankspitze",
         "lat": 47.3375,
