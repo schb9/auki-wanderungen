@@ -103,7 +103,7 @@ window.WANDERUNGEN = [
   },
   {
     "year": 2012,
-    "name": "Schönberg",
+    "name": "Scharnitzjoch – Südwandsteig – Rotmoosalm",
     "points": [
       {
         "type": "start",
@@ -121,24 +121,24 @@ window.WANDERUNGEN = [
       },
       {
         "type": "mid",
-        "name": "Plattach / Roßberg",
-        "lat": 47.3836,
-        "lon": 11.1007,
-        "info": "Zwischenstation · Plattach/Roßberg · 2.096 m"
+        "name": "Scharnitzjoch",
+        "lat": 47.3886372,
+        "lon": 11.1136537,
+        "info": "Übergang · 2.048 m"
+      },
+      {
+        "type": "mid",
+        "name": "Südwandsteig",
+        "lat": 47.3885,
+        "lon": 11.101,
+        "info": "Wegabschnitt · Position näherungsweise"
       },
       {
         "type": "mid",
         "name": "Rotmoosalm",
         "lat": 47.38345,
         "lon": 11.07709,
-        "info": "Zwischenstation · 2.030 m"
-      },
-      {
-        "type": "peak",
-        "name": "Schönberg",
-        "lat": 47.38877,
-        "lon": 11.07631,
-        "info": "Gipfel · 2.142 m"
+        "info": "Ziel · 2.030 m"
       }
     ]
   },
