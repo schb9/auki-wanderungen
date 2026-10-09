@@ -536,6 +536,20 @@ window.WANDERUNGEN = [
         "info": "Zwischenstation · ca. 1.977 m"
       },
       {
+        "type": "mid",
+        "name": "Sonntagsköpfl",
+        "lat": 47.1701,
+        "lon": 11.2651,
+        "info": "Zwischenstation · 2.096 m"
+      },
+      {
+        "type": "mid",
+        "name": "Seejöchl",
+        "lat": 47.14495,
+        "lon": 11.26763,
+        "info": "Zwischenstation · 2.521 m"
+      },
+      {
         "type": "peak",
         "name": "Gamskogel",
         "lat": 47.14294,
