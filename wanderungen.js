@@ -387,14 +387,21 @@ window.WANDERUNGEN = [
     "points": [
       {
         "type": "start",
-        "name": "Angerleweg 37, Obsteig",
-        "lat": 47.3014138,
-        "lon": 10.9111243,
-        "info": "Startpunkt: Angerleweg 37, 6416 Obsteig"
+        "name": "Aschland",
+        "lat": 47.31568,
+        "lon": 10.88825,
+        "info": "Ausgangspunkt · Aschland bei Obsteig"
       },
       {
         "type": "mid",
-        "name": "Muthenaualm (Nassereither Alm)",
+        "name": "Marienbergalm",
+        "lat": 47.34209,
+        "lon": 10.89952,
+        "info": "Zwischenstation · 1.622 m"
+      },
+      {
+        "type": "mid",
+        "name": "Nassereither Alm (Muthenaualm)",
         "lat": 47.34169,
         "lon": 10.84487,
         "info": "Zwischenstation · Nassereither Alm · 1.743 m"
