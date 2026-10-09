@@ -538,8 +538,8 @@ window.WANDERUNGEN = [
       {
         "type": "mid",
         "name": "Sonntagsköpfl",
-        "lat": 47.17052,
-        "lon": 11.26578,
+        "lat": 47.16666,
+        "lon": 11.26311,
         "info": "Zwischenstation · 2.096 m"
       },
       {
