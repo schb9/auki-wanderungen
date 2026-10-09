@@ -299,10 +299,10 @@ window.WANDERUNGEN = [
     "points": [
       {
         "type": "start",
-        "name": "Bahnhof Hochzirl",
-        "lat": 47.281,
-        "lon": 11.24972,
-        "info": "Ausgangspunkt · Bahnhof Hochzirl · 922 m"
+        "name": "Krankenhaus Hochzirl",
+        "lat": 47.28365,
+        "lon": 11.24453,
+        "info": "Ausgangspunkt · Landeskrankenhaus Hochzirl"
       },
       {
         "type": "mid",
@@ -310,13 +310,6 @@ window.WANDERUNGEN = [
         "lat": 47.308153,
         "lon": 11.288375,
         "info": "Zwischenstation · 1.806 m"
-      },
-      {
-        "type": "mid",
-        "name": "Erlspitze",
-        "lat": 47.32012,
-        "lon": 11.28504,
-        "info": "Zwischenstation · 2.405 m"
       },
       {
         "type": "peak",
