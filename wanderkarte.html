@@ -72,7 +72,8 @@ tours.forEach((tour,i)=>{
   m.bindTooltip(p.name,{permanent:true,direction:'right',offset:[5,-3],className:'map-label'});
   markers.push(m);m.addTo(g);
  });
- L.polyline(ll,{color:routeColors[i%routeColors.length],weight:2,opacity:.78}).addTo(g);
+ const segments=tour.routeSegments || [ll.map((_,idx)=>idx)];
+ segments.forEach(indices=>L.polyline(indices.map(idx=>ll[idx]),{color:routeColors[i%routeColors.length],weight:2,opacity:.78}).addTo(g));
  g.addTo(map);groups.set(tour.year,g);
 });
 function fit(){map.fitBounds(allBounds.pad(.07),{maxZoom:10});setTimeout(()=>map.invalidateSize(true),100);}
