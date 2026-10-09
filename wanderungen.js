@@ -244,7 +244,7 @@ window.WANDERUNGEN = [
       },
       {
         "type": "mid",
-        "name": "Rangger Köpfl",
+        "name": "Kögele",
         "lat": 47.24265,
         "lon": 11.18143,
         "info": "Zwischenstation · 1.939 m"
