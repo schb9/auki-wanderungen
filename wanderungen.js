@@ -192,7 +192,7 @@ window.WANDERUNGEN = [
   },
   {
     "year": 2014,
-    "name": "Handschuhspitze",
+    "name": "Handschuhspitze (ausgefallen)",
     "points": [
       {
         "type": "start",
