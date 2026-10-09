@@ -465,42 +465,28 @@ window.WANDERUNGEN = [
   },
   {
     "year": 2024,
-    "name": "Lampsenspitze",
+    "name": "Handschuhspitze",
     "points": [
       {
         "type": "start",
-        "name": "St. Sigmund im Sellrain",
-        "lat": 47.2008,
-        "lon": 11.1006,
-        "info": "Ausgangspunkt"
+        "name": "Obsteig (Angerleweg 37)",
+        "lat": 47.3014138,
+        "lon": 10.9111243,
+        "info": "Ausgangspunkt · Obsteig"
       },
       {
         "type": "mid",
-        "name": "Gleirschalm",
-        "lat": 47.18893,
-        "lon": 11.09908,
-        "info": "Zwischenstation · 1.666 m"
-      },
-      {
-        "type": "mid",
-        "name": "Pforzheimer Hütte",
-        "lat": 47.1457,
-        "lon": 11.0715,
-        "info": "Zwischenstation · ca. 2.308 m"
+        "name": "Marienbergalm",
+        "lat": 47.34209,
+        "lon": 10.89952,
+        "info": "Zwischenstation · 1.622 m"
       },
       {
         "type": "peak",
-        "name": "Lampsenspitze",
-        "lat": 47.145,
-        "lon": 11.123,
-        "info": "Gipfel · ca. 2.875 m"
-      },
-      {
-        "type": "mid",
-        "name": "Praxmar",
-        "lat": 47.1498,
-        "lon": 11.1295,
-        "info": "Endpunkt der Überschreitung"
+        "name": "Handschuhspitze",
+        "lat": 47.34029,
+        "lon": 10.88254,
+        "info": "Gipfel · 2.319 m"
       }
     ]
   },
