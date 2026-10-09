@@ -421,45 +421,24 @@ window.WANDERUNGEN = [
     "points": [
       {
         "type": "start",
-        "name": "Gachenblick",
+        "name": "Piller Höhe / Gotteswald",
         "lat": 47.1365,
         "lon": 10.675,
-        "info": "Ausgangspunkt"
+        "info": "Ausgangspunkt · Piller Höhe / Gotteswald · Position vorläufig (bisheriger Gachenblick)"
       },
       {
         "type": "mid",
-        "name": "Gogles Alm",
-        "lat": 47.137385,
-        "lon": 10.657281,
-        "info": "Zwischenstation · 2.016 m"
-      },
-      {
-        "type": "mid",
-        "name": "Galflun Alm",
+        "name": "Galfunalm",
         "lat": 47.14912,
         "lon": 10.68427,
         "info": "Zwischenstation · 1.960 m"
       },
       {
         "type": "mid",
-        "name": "Larcher Alm",
-        "lat": 47.15706,
-        "lon": 10.69489,
-        "info": "Zwischenstation · 1.814 m"
-      },
-      {
-        "type": "mid",
-        "name": "Imsterberger Venetalm",
+        "name": "Venetalm",
         "lat": 47.177537,
         "lon": 10.698913,
         "info": "Zwischenstation · ca. 1.980 m"
-      },
-      {
-        "type": "mid",
-        "name": "Imsterbergjoch",
-        "lat": 47.17,
-        "lon": 10.696,
-        "info": "Zwischenstation · korrigierte Kartenposition"
       },
       {
         "type": "mid",
@@ -474,6 +453,13 @@ window.WANDERUNGEN = [
         "lat": 47.148342,
         "lon": 10.661674,
         "info": "Gipfel · 2.512 m"
+      },
+      {
+        "type": "mid",
+        "name": "Goglesalm",
+        "lat": 47.137385,
+        "lon": 10.657281,
+        "info": "Zwischenstation · 2.016 m"
       }
     ]
   },
