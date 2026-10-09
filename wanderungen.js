@@ -57,6 +57,13 @@ window.WANDERUNGEN = [
         "lat": 47.27812,
         "lon": 10.8666,
         "info": "Gipfel · 2.096 m"
+      },
+      {
+        "type": "mid",
+        "name": "Haiminger Alm",
+        "lat": 47.2628,
+        "lon": 10.84366,
+        "info": "Weiteres Ziel · ca. 1.786 m"
       }
     ]
   },
