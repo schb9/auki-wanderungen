@@ -261,6 +261,7 @@ window.WANDERUNGEN = [
   {
     "year": 2016,
     "name": "Handschuhspitze",
+    "routeSegments": [[0, 1, 2], [1, 3]],
     "points": [
       {
         "type": "start",
