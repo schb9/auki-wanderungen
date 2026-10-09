@@ -230,6 +230,13 @@ window.WANDERUNGEN = [
     "points": [
       {
         "type": "start",
+        "name": "Stiglreith",
+        "lat": 47.23761,
+        "lon": 11.2189,
+        "info": "Ausgangspunkt · Parkplatz Stiglreith · ca. 1.363 m"
+      },
+      {
+        "type": "mid",
         "name": "Roßkogelhütte",
         "lat": 47.24069,
         "lon": 11.19045,
