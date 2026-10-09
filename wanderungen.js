@@ -531,8 +531,8 @@ window.WANDERUNGEN = [
       {
         "type": "mid",
         "name": "Adolf-Pichler-Hütte",
-        "lat": 47.1635,
-        "lon": 11.3038,
+        "lat": 47.166783,
+        "lon": 11.267483,
         "info": "Zwischenstation · ca. 1.977 m"
       },
       {
