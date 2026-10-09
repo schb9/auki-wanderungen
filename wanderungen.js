@@ -322,14 +322,14 @@ window.WANDERUNGEN = [
   },
   {
     "year": 2018,
-    "name": "Wannig",
+    "name": "Wannig (Umrundung)",
     "points": [
       {
         "type": "start",
-        "name": "Nassereith",
-        "lat": 47.317,
-        "lon": 10.832,
-        "info": "Ausgangspunkt"
+        "name": "Aschlandhof",
+        "lat": 47.31568,
+        "lon": 10.88825,
+        "info": "Ausgangspunkt · Aschland 117, Obsteig"
       },
       {
         "type": "mid",
@@ -339,11 +339,18 @@ window.WANDERUNGEN = [
         "info": "Zwischenstation · Muthenaualm · 1.743 m"
       },
       {
-        "type": "peak",
-        "name": "Wannig",
-        "lat": 47.336676,
-        "lon": 10.862178,
-        "info": "Gipfel · 2.493 m"
+        "type": "mid",
+        "name": "Marienbergjoch (wegen Regen)",
+        "lat": 47.349437,
+        "lon": 10.900412,
+        "info": "Umkehrpunkt wegen Regen · 1.789 m"
+      },
+      {
+        "type": "mid",
+        "name": "Aschlandhof (Rückkehr)",
+        "lat": 47.31568,
+        "lon": 10.88825,
+        "info": "Rückkehr zum Ausgangspunkt"
       }
     ]
   },
