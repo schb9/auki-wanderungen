@@ -87,13 +87,6 @@ window.WANDERUNGEN = [
       },
       {
         "type": "mid",
-        "name": "Hölltörl",
-        "lat": 47.3433,
-        "lon": 10.9178,
-        "info": "Zwischenstation · 2.126 m"
-      },
-      {
-        "type": "mid",
         "name": "Marienbergalm",
         "lat": 47.34209,
         "lon": 10.89952,
