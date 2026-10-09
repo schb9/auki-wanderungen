@@ -155,13 +155,6 @@ window.WANDERUNGEN = [
       },
       {
         "type": "mid",
-        "name": "Feldringalm",
-        "lat": 47.24186,
-        "lon": 10.94034,
-        "info": "Zwischenstation · 1.888 m"
-      },
-      {
-        "type": "mid",
         "name": "Grünwaslkreuz",
         "lat": 47.23849,
         "lon": 10.95251,
@@ -187,6 +180,13 @@ window.WANDERUNGEN = [
         "lat": 47.23201,
         "lon": 10.99895,
         "info": "Gipfel · 2.828 m"
+      },
+      {
+        "type": "mid",
+        "name": "Feldringalm",
+        "lat": 47.24186,
+        "lon": 10.94034,
+        "info": "Zwischenstation · 1.888 m"
       }
     ]
   },
