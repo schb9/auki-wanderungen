@@ -155,7 +155,21 @@ window.WANDERUNGEN = [
       },
       {
         "type": "mid",
-        "name": "Faltegartenkögele",
+        "name": "Feldringalm",
+        "lat": 47.24186,
+        "lon": 10.94034,
+        "info": "Zwischenstation · 1.888 m"
+      },
+      {
+        "type": "mid",
+        "name": "Grünwaslkreuz",
+        "lat": 47.23849,
+        "lon": 10.95251,
+        "info": "Zwischenstation · ca. 2.027 m"
+      },
+      {
+        "type": "mid",
+        "name": "Faltegartenköpfl",
         "lat": 47.243767,
         "lon": 10.958194,
         "info": "Zwischenstation · 2.184 m"
