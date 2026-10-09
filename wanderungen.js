@@ -523,10 +523,17 @@ window.WANDERUNGEN = [
     "points": [
       {
         "type": "start",
+        "name": "Kemater Alm",
+        "lat": 47.1662,
+        "lon": 11.2878,
+        "info": "Ausgangspunkt"
+      },
+      {
+        "type": "mid",
         "name": "Adolf-Pichler-Hütte",
         "lat": 47.166783,
         "lon": 11.267483,
-        "info": "Ausgangspunkt · ca. 1.977 m"
+        "info": "Zwischenstation · ca. 1.977 m"
       },
       {
         "type": "mid",
@@ -553,12 +560,13 @@ window.WANDERUNGEN = [
     "routeSegments": [
       [
         0,
-        1
+        1,
+        2
       ],
       [
-        0,
-        2,
-        3
+        1,
+        3,
+        4
       ]
     ]
   }
