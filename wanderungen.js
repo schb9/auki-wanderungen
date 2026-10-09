@@ -245,9 +245,9 @@ window.WANDERUNGEN = [
       {
         "type": "mid",
         "name": "Kögele",
-        "lat": 47.24265,
-        "lon": 11.18143,
-        "info": "Zwischenstation · 1.939 m"
+        "lat": 47.22337,
+        "lon": 11.17277,
+        "info": "Zwischenstation · 2.195 m"
       },
       {
         "type": "peak",
